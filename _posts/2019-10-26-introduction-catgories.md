@@ -2,7 +2,7 @@
 title: "An introduction to category theory, functors and monads"
 excerpt: "This will be a post about category theory and the relation between it and functors, monads and monoids in Haskell"
 header:
-  overlay_image: /assets/blog-images/front2.jpg'
+  overlay_image: /assets/blog-images/front2.jpg
 categories:
   - Categories
   - Monads
@@ -178,8 +178,9 @@ Before moving foward with the category theory we can also represent the associat
 
 and the law of identity is for ex:
 
-<img src="http://www.ernestobossi.com.ar/media/media/blog/uploads/conmmutatuve_arrow_identity.jpeg" width="300" />
-
+<figure>
+    <a href="/assets/blog-images/conmmutatuve_arrow_identity.jpeg""><img src="/assets/blog-images/conmmutatuve_arrow_identity.jpeg""></a>
+</figure>
 
 <script type="math/tex; mode=display">
   id_B \circ f = f = f \circ id_A
@@ -293,7 +294,9 @@ Since the inverses are unique, we write (g = f^{−1}). We say that A is isomorp
 
 We can define that Integers can be saw as monoids, where the type is the object set of the category, meaning ob((Int)) is a singleton or either each of the numbers as a new category, for example, 0 could be a category with only it's identity, and a category where 0 and 1 are objects and have the composition where you can compose both objects with a + function, these are two different categories, but you can also form a monoid based on Intgers where the value 0,1.. etc is actually not an object but instead the morphism, on integers that could be seen as monoids we can say that ((Integer, 0, +)) could be seen as a monoid too, so the same object can be seen in many different way as a category and also you can choose what are object, morphisms and composition, this applies only when you can prove that the categories laws are proveed and verified. Some examples of these besides Integers are Str and discrete((Σ*))
 
-<img src="http://www.ernestobossi.com.ar/media/media/blog/uploads/numbers_succ_cat.jpeg" width="300" />
+<figure>
+    <a href="/assets/blog-images/numbers_succ_cat.jpeg"><img src="/assets/blog-images/numbers_succ_cat.jpeg"></a>
+</figure>
 
 A category will also have properties based on their objects, morphisms and composition. 
 
@@ -438,7 +441,9 @@ We have seen some pretty long explanaition of introductory category theory, how 
 
 Hask category treats Haskell types as objects and Haskell functions as morphisms and uses for composition ((\circ)) the function ((.)), a function (f :: A -> B) for types A and B is a morphism in Hask. 
 
-<img src="http://yogsototh.github.io/Category-Theory-Presentation/categories/img/mp/hask.png" width="300" />
+<figure>
+    <a href="/assets/blog-images/hask.png"><img src="/assets/blog-images/hask.png"></a>
+</figure>
 
 We can prove the composition between functions for eg that h = f.g, on the Hask there is also the identity ob an object defined by id, in Haskell
 
@@ -711,7 +716,9 @@ We have that for any morhpism that (f: X \rightarrow Y) called the naturallity c
 
 this is called naturality square, represented by the following diagram:
 
-<img src="http://www.ernestobossi.com.ar/media/media/blog/uploads/natural_transformations.jpeg" width="300" />
+<figure>
+    <a href="/assets/blog-images/natural_transformations.jpeg"><img src="/assets/blog-images/natural_transformations.jpeg"></a>
+</figure>
 
 ### Some examples
 
@@ -723,7 +730,9 @@ listToMaybe [] = Nothing
 listToMaybe (x:xs) = Just x
 ```
 
-<img src="http://www.ernestobossi.com.ar/media/media/blog/uploads/list_maybe_natural_transformations.jpeg" width="500" />
+<figure>
+    <a href="/assets/blog-images/list_maybe_natural_transformations.jpeg"><img src="/assets/blog-images/list_maybe_natural_transformations.jpeg"></a>
+</figure>
 
 ```haskell
 maybeToList :: Maybe a -> [a]
@@ -731,7 +740,9 @@ maybeToList Nothing = []
 maybeToList Just x  = [x]
 ```
 
-<img src="http://www.ernestobossi.com.ar/media/media/blog/uploads/maybe_list_natural_transformations.jpeg" width="500" />
+<figure>
+    <a href="/assets/blog-images/maybe_list_natural_transformations.jpeg"><img src="/assets/blog-images/maybe_list_natural_transformations.jpeg"></a>
+</figure>
 
 Another example could be a natural transformation between Either and Maybe
 
