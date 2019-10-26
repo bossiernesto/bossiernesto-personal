@@ -376,7 +376,9 @@ The functor will do the following on the transformation:
 
 See this example:
 
-![](http://www.ernestobossi.com.ar/media/media/blog/uploads/Functor_category.png)
+<figure>
+    <a href="/assets/blog-images/Functor_category.png"><img src="/assets/blog-images/Functor_category.png"></a>
+</figure>
 
 A functor between two categories, (C) and (D). Of note is that the objects A and B both get mapped to the same object in (D), and that therefore g becomes a morphism with the same source and target object, but isn't necessarily an identity, and (id_A) and (id_B) become the same morphism. The arrows showing the mapping of objects are shown in a dotted, pale olive. The arrows showing the mapping of morphisms are shown in a dotted, pale blue.
 
@@ -442,7 +444,7 @@ We have seen some pretty long explanaition of introductory category theory, how 
 Hask category treats Haskell types as objects and Haskell functions as morphisms and uses for composition ((\circ)) the function ((.)), a function (f :: A -> B) for types A and B is a morphism in Hask. 
 
 <figure>
-    <a href="/assets/blog-images/hask.png"><img src="/assets/blog-images/hask.png"></a>
+    <a href="/assets/blog-images/hask.jpg"><img src="/assets/blog-images/hask.jpg"></a>
 </figure>
 
 We can prove the composition between functions for eg that h = f.g, on the Hask there is also the identity ob an object defined by id, in Haskell
