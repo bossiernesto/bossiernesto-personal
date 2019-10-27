@@ -74,7 +74,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/bossiernesto"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-likedin"
+      icon: "fab fa-fw fa-likedin-square"
       url: "http://www.linkedin.com/profile/view?id=222103143"
   location: 42°2'16"N   70°12'47"W        
 
@@ -82,13 +82,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/bossiernest"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/bossiernesto"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
 
 defaults:
   # _posts
