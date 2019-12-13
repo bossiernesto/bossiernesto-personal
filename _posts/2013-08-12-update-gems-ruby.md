@@ -1,12 +1,10 @@
 ---
 title: "Update all Ruby gems"
-date: 2013-08-12 19:55:16
 categories:
   - Ruby
 tags:
   - link
   - Post Formats
-link: https://github.com
 ---
 
 Last week i wanted to update some ruby projects that i have packed in gems and wanted to update their dependencies (just to have the project updated).
