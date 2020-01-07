@@ -1,5 +1,4 @@
 ---
-override_date: 2019-12-09
 title: "Just got a refurb laptop to my collection"
 excerpt: "New laptop to my collection, my first refurbished laptop"
 header:
