@@ -1,8 +1,9 @@
 ---
+layout: posts
 title: "Just got a refurb laptop to my collection"
 excerpt: "New laptop to my collection, my first refurbished laptop"
-header:
-  overlay_image: /assets/blog-images/20191211_161534.jpg
+image:
+  path: /assets/blog-images/20191211_161534.jpg
 categories:
   - Random
 tags:

@@ -1,8 +1,9 @@
 ---
+layout: posts
 title: "An introduction to category theory, functors and monads"
 excerpt: "This will be a post about category theory and the relation between it and functors, monads and monoids in Haskell"
-header:
-  overlay_image: /assets/blog-images/front2.jpg
+image:
+  path: /assets/blog-images/front2.jpg
 categories:
   - Categories
   - Monads

@@ -1,4 +1,5 @@
 ---
+layout: posts
 title: "Update all Ruby gems"
 categories:
   - Ruby
