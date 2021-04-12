@@ -25,8 +25,7 @@ disqus: bossiernestogithubio
 repository: bossiernesto/bossiernesto.github.io
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
 # Outputting
 permalink: /:categories/:title/
 paginate: 7 # amount of posts to show
