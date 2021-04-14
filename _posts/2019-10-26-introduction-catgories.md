@@ -180,7 +180,7 @@ Before moving foward with the category theory we can also represent the associat
 and the law of identity is for ex:
 
 <figure>
-    <a href="/assets/blog-images/conmmutatuve_arrow_identity.jpeg""><img src="/assets/blog-images/conmmutatuve_arrow_identity.jpeg""></a>
+    <a href="/assets/blog-images/conmmutatuve_arrow_identity.jpeg"><img src="/assets/blog-images/conmmutatuve_arrow_identity.jpeg"></a>
 </figure>
 
 <script type="math/tex; mode=display">
