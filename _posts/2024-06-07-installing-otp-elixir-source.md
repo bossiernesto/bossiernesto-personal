@@ -2,8 +2,6 @@
 layout: posts
 title: "Installing OTP and Elixir from source code"
 excerpt: "A reminder of the steps i need to remind myself each time i install/update these tools"
-image:
-  path: /assets/blog-images/otp_elixir.png
 categories:
   - Elixir
 tags:
@@ -13,6 +11,10 @@ tags:
 
 Erlang/OTP and Elixir are both available as pre-built binary packages by most OS package managers. However, lately I've noticed that most of these binary packages are releasing old versions from both of these languages. 
 This guide will point out a couple of ways to fetch newer and still stable versions of both of these languages.
+
+<figure>
+    <a href="/assets/blog-images/natural_transformations.jpeg"><img src="/assets/blog-images/otp_elixir.png"></a>
+</figure>
 
 ## OTP
 
